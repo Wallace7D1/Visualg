@@ -1,0 +1,21 @@
+var
+preco, quantidade, recebido, troco, subtotal:inteiro
+   
+   
+inicio
+escreva ("Produto custa:")
+leia (preco)
+
+   escreva("Quantidade:")
+   leia(quantidade)
+   
+    subtotal <- (quantidade*preco)
+    
+    escreval("SubTotal:",subtotal)
+    
+    escreva("Valor recebido:")
+    leia(recebido)
+    
+    troco <- (recebido-subtotal)
+    
+    escreva("Troco:", troco)
